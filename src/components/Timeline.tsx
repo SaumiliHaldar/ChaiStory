@@ -5,7 +5,7 @@ const milestones = [
   {
     year: '2000 BC',
     title: 'The First Steep',
-    desc: 'Ancient Ayurvedic texts describe herbal brews with ginger and spice as medicine for the soul.',
+    desc: 'Ancient Ayurvedic texts describe herbal infusions with ginger and spice as medicine for the soul.',
   },
   {
     year: '1800s',

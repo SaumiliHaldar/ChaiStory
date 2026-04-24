@@ -18,7 +18,7 @@ const ChapterIntro: React.FC = () => {
         >
           <span className="font-display text-bark tracking-[0.25em] text-xs uppercase block mb-4">Chapter One</span>
           <h2 className="font-serif italic text-4xl md:text-5xl text-ember leading-tight mb-6">
-            The brew that<br/>changed everything.
+            The infusion that<br/>changed everything.
           </h2>
           <div className="w-12 h-[1px] bg-bark mb-8"></div>
           <p className="font-body text-cream/50 text-sm tracking-wide leading-loose max-w-xs">

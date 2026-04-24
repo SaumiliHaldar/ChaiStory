@@ -99,7 +99,7 @@ const Hero: React.FC = () => {
 
         {/* Scroll Indicator */}
         <div className="absolute bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center space-y-4">
-          <span className="font-body text-[10px] tracking-[0.4em] uppercase text-cream/30">Scroll to Brew</span>
+          <span className="font-body text-[10px] tracking-[0.4em] uppercase text-cream/30">Scroll to Steep</span>
           <div className="w-[1px] h-12 bg-cream/10 relative overflow-hidden">
             <div className="absolute inset-0 bg-ember animate-scroll-line" />
           </div>

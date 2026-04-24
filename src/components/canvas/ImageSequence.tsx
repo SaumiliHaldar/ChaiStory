@@ -133,7 +133,7 @@ const ImageSequence: React.FC<ImageSequenceProps> = ({
               />
             </div>
             <span className="font-body text-[10px] tracking-[0.3em] uppercase text-cream/40">
-              Brewing... {Math.round((imagesLoaded / frameCount) * 100)}%
+              Steeping... {Math.round((imagesLoaded / frameCount) * 100)}%
             </span>
           </div>
         </div>

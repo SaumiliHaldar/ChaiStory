@@ -52,7 +52,7 @@ const Finale: React.FC = () => {
         </p>
         
         <button className="group relative px-12 py-5 overflow-hidden border border-cream/20 bg-transparent text-cream font-display tracking-[0.25em] uppercase text-sm md:text-base transition-colors duration-500 hover:text-cinema cursor-pointer">
-          <span className="relative z-10">Brew the Experience</span>
+          <span className="relative z-10">Steep the Experience</span>
           {/* Bottom-up directional fill */}
           <div className="absolute inset-0 bg-ember transform origin-bottom scale-y-0 group-hover:scale-y-100 transition-transform duration-500 ease-[cubic-bezier(0.19,1,0.22,1)] z-0"></div>
         </button>

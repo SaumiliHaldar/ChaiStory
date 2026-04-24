@@ -63,7 +63,7 @@ const Nav: React.FC = () => {
 
           {/* CTA */}
           <button className="hidden md:block font-display tracking-[0.2em] text-xs uppercase text-ember border border-ember/40 px-5 py-2 hover:bg-ember hover:text-cinema transition-all duration-300 cursor-pointer">
-            Brew Now
+            Steep Now
           </button>
 
           {/* Mobile Hamburger */}
@@ -99,7 +99,7 @@ const Nav: React.FC = () => {
               </button>
             ))}
             <button className="mt-6 font-display tracking-[0.2em] text-sm uppercase text-ember border border-ember/40 px-8 py-3 hover:bg-ember hover:text-cinema transition-all duration-300">
-              Brew Now
+              Steep Now
             </button>
           </motion.div>
         )}
