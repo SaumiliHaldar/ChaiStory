@@ -6,8 +6,8 @@ import Chapters from './components/Chapters';
 import VisualBlocks from './components/VisualBlocks';
 import SpiceGrid from './components/SpiceGrid';
 import Timeline from './components/Timeline';
-
 import Finale from './components/Finale';
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   useEffect(() => {
@@ -43,6 +43,7 @@ function App() {
       <SpiceGrid />
       <Timeline />
       <Finale />
+      <Analytics />
     </main>
   );
 }
