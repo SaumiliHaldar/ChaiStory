@@ -81,16 +81,16 @@ const Chapters: React.FC = () => {
         {chaptersData.map((chapter, index) => (
           <section 
             key={chapter.num}
-            className="relative w-screen h-full flex flex-col justify-center px-6 md:px-12 lg:px-24 py-12 md:py-20 overflow-hidden"
+            className="relative w-screen h-full flex flex-col justify-center px-6 md:px-12 lg:px-24 py-16 md:py-20 overflow-hidden"
           >
             {/* Ghost Numeral */}
             <div 
-              className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[12rem] md:text-[25rem] lg:text-[35rem] font-serif italic text-cream opacity-[0.03] leading-none pointer-events-none select-none z-0"
+              className="absolute top-[10%] md:top-1/2 left-[10%] md:left-1/2 -translate-x-0 md:-translate-x-1/2 -translate-y-0 md:-translate-y-1/2 text-[10rem] md:text-[25rem] lg:text-[35rem] font-serif italic text-cream opacity-[0.02] md:opacity-[0.03] leading-none pointer-events-none select-none z-0"
             >
               {chapter.num}
             </div>
             
-            <div className="max-w-7xl mx-auto w-full grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-16 items-center relative z-10">
+            <div className="max-w-7xl mx-auto w-full grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16 items-center relative z-10">
               <motion.div 
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}

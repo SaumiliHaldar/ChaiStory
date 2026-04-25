@@ -26,7 +26,7 @@ const MobileMenu: React.FC<{
           className="fixed inset-0 z-[105] bg-cinema flex flex-col pt-32 px-10"
         >
           {/* Background Watermark */}
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-serif text-[20rem] text-cream/[0.03] pointer-events-none select-none z-0">
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-serif text-[12rem] text-cream/[0.03] pointer-events-none select-none z-0">
             चाय
           </div>
 
