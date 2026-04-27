@@ -87,15 +87,17 @@ const Hero: React.FC = () => {
           </div>
 
           <div className="space-y-4 relative z-10">
-            <h1 className="hero-headline font-serif italic text-7xl md:text-[10rem] lg:text-[13rem] text-cream leading-none tracking-tight">
+            <h1 className="hero-headline font-serif italic text-8xl md:text-[12rem] lg:text-[15rem] text-cream leading-[0.8] tracking-tighter">
               Chai
             </h1>
-            <div className="hero-subtext space-y-2">
-              <p className="font-body text-cream/60 text-lg md:text-xl tracking-[0.2em] uppercase">
-                The Essence of Steam and Soul
+            <div className="hero-subtext space-y-4">
+              <p className="font-body text-cream/40 text-sm md:text-lg tracking-widest-xl uppercase max-w-xl mx-auto text-balance">
+                The dust, the steam, the clay cup. 
+                A thousand years of ritual, served in a moment.
               </p>
-              <p className="font-serif italic text-ember/60 text-xl md:text-2xl tracking-wide">
-                भाप और आत्मा का सार
+              <div className="w-12 h-[1px] bg-ember/30 mx-auto"></div>
+              <p className="font-serif italic text-ember/50 text-2xl md:text-3xl tracking-wide">
+                धूल, भाप और कुल्हड़ की खुशबू।
               </p>
             </div>
           </div>

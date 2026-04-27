@@ -48,17 +48,47 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /* Typography Resets */
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   font-weight: normal;
+  letter-spacing: -0.02em;
 }
 
-.font-serif { font-family: var(--font-serif); }
-.font-display { font-family: var(--font-display); }
-.font-body { font-family: var(--font-body); }
+.font-serif { 
+  font-family: var(--font-serif); 
+  font-variant-ligatures: common-ligatures;
+}
+.font-display { 
+  font-family: var(--font-display); 
+  letter-spacing: 0.15em;
+}
+.font-body { 
+  font-family: var(--font-body); 
+  line-height: 1.6;
+}
+
+/* Magnetic Interaction Utilities */
+.magnetic {
+  display: inline-block;
+  transition: transform 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.magnetic:hover {
+  transform: translate(var(--mx, 0), var(--my, 0));
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.tracking-widest-xl {
+  letter-spacing: 0.4em;
+}
 
 .text-cream { color: var(--cream); }
 .text-ember { color: var(--ember); }

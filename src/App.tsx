@@ -7,6 +7,7 @@ import VisualBlocks from './components/VisualBlocks';
 import SpiceGrid from './components/SpiceGrid';
 import Timeline from './components/Timeline';
 import Finale from './components/Finale';
+import CustomCursor from './components/CustomCursor';
 import { Analytics } from "@vercel/analytics/react";
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
 
   return (
     <main className="bg-cinema text-cream min-h-screen">
+      <CustomCursor />
       <Navbar />
       <Hero />
       <Chapters />

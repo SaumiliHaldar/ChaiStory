@@ -8,35 +8,35 @@ gsap.registerPlugin(ScrollTrigger);
 const chaptersData = [
   {
     num: '01',
-    hindiNum: 'अध्याय एक',
-    englishNum: 'Chapter One',
-    title: 'The infusion that changed everything.',
-    subtext: 'Origin · Ritual · Warmth',
+    hindiNum: 'शुरुआत',
+    englishNum: 'The Origin',
+    title: 'It began with a gesture.',
+    subtext: 'Hospitality · Dust · Welcome',
     content: [
-      'Long before cafés and pour-overs, there was chai. Born in the kitchens of the subcontinent, it was never just a drink - it was a gesture of welcome, a pause in the day, a language shared between strangers.',
-      'Every household has its recipe. Every recipe holds a memory. This is the story of the cup that refuses to be forgotten.'
+      'Long before the glass-walled cafés, there was the clay cup. Born in the heat of the subcontinent, it was never just a drink—it was a conversation started between strangers, a pause in a chaotic day.',
+      'Every house has a secret ingredient. Every street corner has a local hero. This is the story of the cup that built a culture.'
     ],
   },
   {
     num: '02',
-    hindiNum: 'अध्याय दो',
-    englishNum: 'Chapter Two',
-    title: 'A Symphony of Simmer.',
-    subtext: 'Heat · Alchemy · Aroma',
+    hindiNum: 'धैर्य',
+    englishNum: 'The Process',
+    title: 'Respect the Simmer.',
+    subtext: 'Bruised Ginger · Heat · Patience',
     content: [
-      'The boiling of milk, the bruising of cardamom, the slow dance of tea leaves turning water into amber. It is a patient process, one that rewards the watcher with the perfect steam.',
-      'Fire is the alchemist here. It doesn\'t just boil; it transforms. The aroma that fills the room is the first sip, taken by the soul before the lips even touch the rim.'
+      'The bruising of cardamom, the slow bubble of milk, the transformation of water into amber. You cannot rush the steam. It requires a patient eye and a steady hand.',
+      'Fire doesn\'t just boil; it extracts the soul of the leaf. The aroma that fills the air is the first sip, felt by the senses before the lips even touch the rim.'
     ],
   },
   {
     num: '03',
-    hindiNum: 'अध्याय तीन',
-    englishNum: 'Chapter Three',
-    title: 'The Urban Pulse.',
-    subtext: 'Community · Conversation · Connection',
+    hindiNum: 'संगम',
+    englishNum: 'The Community',
+    title: 'The Street\'s Equalizer.',
+    subtext: 'Clay · Conversation · Chaos',
     content: [
-      'On every street corner, the \'tapri\' stands as a secular temple. Here, social hierarchies dissolve into the steam of a shared pot. It is the original social network, powered by ginger and steam.',
-      'From rickshaw drivers to corporate visionaries, the clay cup - the kulhad - is the great equalizer. One cup, a thousand stories, and the pulse of a nation.'
+      'At the \'tapri\', status dissolves into steam. Here, the corporate visionary and the street vendor share the same bench and the same brew. It is the original social network, powered by ginger.',
+      'From the kulhad to the cutting glass, it is the rhythm of the city. One cup, a million stories, and the undeniable pulse of a nation.'
     ],
   }
 ];
